@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="#3359DF"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_margin="29dp"
+        android:layout_marginLeft="15dp"
+        android:text="My profile"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:text="Track:  Android"
+        android:textColor="#47484B"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="390dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Country: Tanzania"
+        android:textColor="#47484B"
+        android:textSize="17dp"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="580dp"
+        android:textSize="17dp"
+        android:text="Slack : Veeml"
+        android:textColor="#47484B"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="390dp"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textColor="#47484B"
+        android:text="Veronica Michael" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="490dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="vlikunama@gmail.com"
+        android:textColor="#47484B"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="17dp"
+        android:textColor="#47484B"
+        android:text="+255625495113" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@drawable/huey_" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
